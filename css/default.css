@@ -5,10 +5,7 @@
     color: #000;
     position: absolute;
     z-index: 10000;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+    
 }
 
 .picker__input {
@@ -116,7 +113,6 @@
     -webkit-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0);
-    zoom: 1;
     background: rgba(0, 0, 0, .32);
     transition: background .15s ease-out
 }
