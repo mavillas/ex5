@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang=en>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ex5 | pickadate.js</title>
+
+    <!-- css link -->
+    <link type=text/css href=ex5.css rel=stylesheet>
+
+    <link type=text/css href="css/default.css" rel=stylesheet>
+    <link type=text/css href="css/default.date.css" rel=stylesheet>
+    <link type=text/css href="css/default.time.css" rel=stylesheet>
+
+
+    <!-- js links -->
+    <!-- jQuery linked first -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="js/picker.js"></script>
+    <script src="js/picker.date.js"></script>
+    <script src="js/picker.time.js"></script>
+
+    <!-- custom js -->
+
+    <script type=text/javascript src=ex5.js></script>
+</head>
+
+<body>
+    <header>
+        <h1>Ridesharing Idea</h1>
+        <p>This is one of the first tests for the upcoming UC Davis Ridesharing platform.</p>
+    </header>
+
+
+    <form name="pickers">
+        <p>Choose a date and time for your departure below.</p>
+        <input class="datepicker" type="text" placeholder="Departure Date" name="date">
+
+        <input class="timepicker" type="text" placeholder="Departure Time" name="time">
+
+        <input type="submit" value="Submit" class="button" />
+    </form>
+    
+    <footer>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a> |
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+
+    <section id="overlay">
+        <p>Thanks for posting! We'll notify you of any possible matches for your ride.</p>
+        <nav id="close">close</nav>
+    </section>
+
+
+</body>
+
+</html>
