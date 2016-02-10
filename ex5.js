@@ -18,7 +18,7 @@ $(document).ready(function () {
         var center = $(window).width() / 2;
         //set the left property for the overlay to the center variable
 
-        $('section#overlay').css('left', center).animate({
+        $('section#overlay').css('visibility','visible').css('left', center).animate({
             width: '100%',
             left: '0',
         });
