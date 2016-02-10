@@ -31,7 +31,7 @@ form input {
     color: black;
     font-size: 12px;
     border-radius: 5px;
-    border: 2px solid #747474;
+    border: 2px solid rgb(68, 137, 232);;
 }
 
 form input:hover {
